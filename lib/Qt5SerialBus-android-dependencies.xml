@@ -1,0 +1,3 @@
+<rules><dependencies><lib name="Qt5SerialBus"><depends>
+<bundled file="plugins/canbus" />
+</depends></lib></dependencies></rules>

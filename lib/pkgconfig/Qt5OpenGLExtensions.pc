@@ -1,0 +1,14 @@
+prefix=/home/gzleo/Qt5.10.0/5.10.0/android_armv7
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 OpenGLExtensions
+Description: Qt OpenGLExtensions module
+Version: 5.10.0
+Libs: -L${libdir} -lQt5OpenGLExtensions 
+Libs.private: -L/opt/android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a -L/opt/android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9 -L/home/gzleo/Qt5.10.0/5.10.0/android_armv7/lib -lQt5Gui -lQt5Core -lgnustl_shared -lgcc -llog -lz -lm -ldl -lc -lGLESv2 
+Cflags: -I${includedir}/QtOpenGLExtensions -I${includedir}
+Requires: Qt5Core Qt5Gui
+

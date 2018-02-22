@@ -1,0 +1,5 @@
+<rules><dependencies><lib name="Qt5WebView"><depends>
+<jar file="jar/QtAndroidWebView.jar"  />
+<jar bundling="1" file="jar/QtAndroidWebView-bundled.jar"  />
+<permission name="android.permission.ACCESS_FINE_LOCATION" />
+</depends></lib></dependencies></rules>
